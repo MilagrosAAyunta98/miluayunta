@@ -190,8 +190,8 @@ main .sobre-nosotros{
 .cards .card {
     background: #499AC9;
     display: flex;
-    width: 30%;
-    height: 200px;
+    width: 65%;
+    height: 270px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
@@ -199,11 +199,9 @@ main .sobre-nosotros{
 }
 
 .cards .card img {
-    width: 100px;
+    width: 150px;
     height: 100px;
     object-fit: cover;
-    border: 3px solid floralwhite;
-    border-radius: 50%;
     display: block;
 }
 
@@ -214,7 +212,8 @@ main .sobre-nosotros{
 
 .cards .card .contenido-texto-card p{
     font-weight: 300;
-    padding-top: 5px;
+    padding-top: 0px;
+    font-size: 15px;
 }
 /* our team */
 .about-services{
@@ -223,7 +222,7 @@ main .sobre-nosotros{
 }
 .servicio-cont{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -246,7 +245,7 @@ main .sobre-nosotros{
 /* footer */
 footer{
     background: #414141;
-    padding: 60px 0 30px 0;
+    padding: 30px 0 30px 0;
     margin: auto;
     overflow: hidden;
 }
@@ -264,19 +263,28 @@ footer{
     text-align: center;
 }
 
+footer .content-foo a{
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
 .content-foo h4{
     color: #fff;
-    border-bottom: 3px solid #af20d3;
+    border-bottom: 3px solid #499AC9;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
-.content-foo p{
+.content-foo img{
     color: #ccc;
+    justify-content: center;
 }
 
 .titulo-final{
     text-align: center;
-    font-size: 24px;
+    font-size: 15px;
     margin: 20px 0 0 0;
     color: #9e9797;
 }
